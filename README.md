@@ -50,3 +50,5 @@ The following table displays the evaluation metrics for different clustering met
 | Hierarchical Clustering  |            0.312203 |                  319.579503 |                1.140937 |
 | DBSCAN                   |            -0.335947 |                  9.312032 |                1.968225 |
 | Gaussian Mixture Model   |            0.296289 |                  236.613360 |                2.349825 |
+
+The K-Means and Hierarchical Clustering method generally did a better job than the other methods while DBSCAN did the worst. It is important to note that DBSCAN returned a negative Silhouette Score with this dataset, which means that some data points might be assigned to the wrong clusters, indicating potential issues with cluster quality.
