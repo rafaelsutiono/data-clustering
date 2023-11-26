@@ -22,7 +22,7 @@ Interpretation can be subjective.</br></br>
 
 ### DBSCAN (Density-Based Spatial Clustering of Applications with Noise):
 
-DBSCAN is a density-based clustering algorithm that groups together data points that are close to each other and have a sufficient number of neighbors, while marking outliers as noise. It doesn't require specifying the number of clusters.</br>
+DBSCAN is a density-based clustering algorithm that groups together data points that are close to each other and have a sufficient number of neighbors, while marking outliers as noise. It doesn't require specifying the number of clusters.</br></br>
 Pros:
 Can discover clusters of arbitrary shapes.
 Robust to noise and outliers.</br>
@@ -32,7 +32,7 @@ Performance may degrade in high-dimensional spaces.</br></br>
 
 ### Gaussian Mixture Model (GMM):
 
-GMM is a probabilistic model that represents a mixture of Gaussian distributions. It assumes that the data points are generated from a mixture of several Gaussian distributions and uses the Expectation-Maximization (EM) algorithm to estimate the parameters.</br>
+GMM is a probabilistic model that represents a mixture of Gaussian distributions. It assumes that the data points are generated from a mixture of several Gaussian distributions and uses the Expectation-Maximization (EM) algorithm to estimate the parameters.</br></br>
 Pros:
 Can model clusters with different shapes and sizes.
 Provides soft assignments, i.e., the probability of each point belonging to each cluster.</br>
